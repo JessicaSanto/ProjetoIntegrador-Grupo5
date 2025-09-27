@@ -19,7 +19,7 @@ data_base = 'db_coleta'
 
 certificado = 'DigiCertGlobalRootG2.crt.pem'
 
-uri = f"mysql://{username}:{password}@{server_name}:{port}/{data_base}"
+uri = f"mysql+pymysql://{username}:{password}@{server_name}:{port}/{data_base}"
 ssl_certificado = f"?ssl_ca={certificado}"
 
 
