@@ -11,10 +11,10 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://grupo5:Senai%40134@projeto-integrador5.mysql.database.azure.com/db_coleta'
 app.config['SQLALCHEMY_ECHO'] = True  
 
-server_name = 'projetointegrador-grupo-5.mysql.database.azure.com'
+server_name = 'projeto-integrador5.mysql.database.azure.com'
 port = '3306'
 username = 'grupo5'
-password = 'senai%40134'
+password = 'Senai%40134'
 data_base = 'db_coleta'
 
 certificado = 'DigiCertGlobalRootG2.crt.pem'
