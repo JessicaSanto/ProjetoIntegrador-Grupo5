@@ -217,4 +217,4 @@ def gera_response(status, nome_do_conteudo, conteudo, mensagem=False):
 #     with app.app_context():
 #         mybd.create_all()
 start_mqtt()
-app.run(port=5000, host='0.0.0.0', debug=True)
+app.run(port=6000, host='0.0.0.0', debug=True)
